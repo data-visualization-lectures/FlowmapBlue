@@ -1,535 +1,537 @@
 {
   "aspectRatio": 1.3333333333333333,
-  "screenshotSizes": [600],
+  "screenshotSizes": [
+    600
+  ],
   "examples": [
     {
       "key": "15kwLB4baXZ7jpip8q0JjgR6zDoS5Gt3gMLCTUAboQxk",
-      "name": "Migration in Switzerland 2016",
+      "name": "スイスの移住（2016年）",
       "query": "v=46.719075,7.817990,7.51&a=0&d=1&c=0&lt=1&col=Default&f=45"
     },
     {
       "key": "1hIfHz5LNmiizMAbnUbzCOYt-QqORI4hChUE4dZUQgfs",
       "query": "v=-27.469948,153.026140,11.65,0,0&a=0&b=1&bo=75&c=1&d=1&lt=1&lfm=ALL&col=Default&f=50",
-      "name": "South East Queensland public transport"
+      "name": "南東クイーンズランドの公共交通"
     },
     {
       "key": "1Ipp8FUeOTSXcrzXEg9cfW_V3Czpurkt59vvdFk3v1EA",
       "query": "v=37.695073,-122.123593,9.45,0,0&a=0&as=1&b=1&bo=75&c=1&ca=1&d=1&fe=1&lt=1&lfm=ALL&col=SunsetDark&f=50",
-      "name": "BART ridership 2021"
+      "name": "BART乗車数（2021年）"
     },
     {
       "key": "1mK1ZMxNmGtSSxMhtoKO5h7nxyDMXFC_3_u4eo4rtucg",
-      "name": "BIXI bicycle sharing Montréal",
+      "name": "モントリオールBIXI自転車シェア",
       "query": "v=45.513266,-73.573425,12.18&a=0&d=1&c=1&col=Teal&f=45"
     },
     {
       "key": "1T4rtV14nPZ_3sOaySjbmSHFDgZkQnxewzL85X6suGY8",
-      "name": "Tartu bike sharing 2019",
+      "name": "タルトゥの自転車シェア（2019年）",
       "query": "v=58.372321,26.723534,12.32,0,0&a=0&as=1&b=1&bo=50&c=1&ca=1&d=1&fe=1&lt=1&lfm=ALL&t=20190701T000000,20191231T220000&col=Default&f=46"
     },
     {
       "key": "1qTVOzkPB7U1ySI4g4uPtVBzzEDCI8n1WXAmQeZL15fE",
-      "name": "Hourly BIXI rides Montréal",
+      "name": "モントリオールのBIXI時間別利用",
       "query": "v=45.495056,-73.564832,11.84,0,0&a=0&b=1&bo=75&c=1&d=1&lt=1&lfm=ALL&t=20190701T050000,20190702T020000&col=Default&f=50"
     },
     {
       "key": "1Ekx_2rvuq-OnxTlPyFZ2ryQSphHG4KW2llDgzDoF-RA",
       "query": "v=57.679760,11.949905,10.68,0,0&a=0&as=1&b=1&bo=75&c=1&ca=1&d=1&fe=1&lt=1&lfm=ALL&t=19990101T000000,20200101T000000&col=Default&f=50",
-      "name": "Yearly migration in Gothenburg, SWE"
+      "name": "スウェーデン・ヨーテボリの年間移住"
     },
     {
       "key": "1LdI8f92UFFpANt8dlJ_GGxjq9gdZ1YzXL2Z13FFpkqo",
       "query": "v=46.882300%2C8.093152%2C7.57%2C0%2C0&a=0&as=1&b=1&bo=75&c=1&ca=1&d=1&fe=1&lt=1&lfm=ALL&col=Default&f=50",
-      "name": "Trains on the Swiss rail network in 2022"
+      "name": "スイス鉄道網の列車（2022年）"
     },
     {
       "key": "13PZndO5uCtm88VBzdHcKX37NrGIrs8iWwXaSrtnJf-U",
-      "name": "1 billion U.S. air passengers in 2018",
+      "name": "2018年の米国航空旅客10億人",
       "query": "v=36.849073,-100.022031,3.68&a=0&b=1&c=1&d=1&lt=1&col=BuPu&f=47"
     },
     {
       "key": "1e9YGvTJS2tloMmK-sXXP2-361nWhBuAgyDIwhTu7MYA",
-      "name": "Mobility in Estonia in 2018",
+      "name": "エストニアのモビリティ（2018年）",
       "query": "v=58.557008%2C25.317849%2C7.34%2C0%2C0&a=0&as=1&b=1&bo=47&c=1&ca=1&d=1&fe=1&lt=1&lfm=ALL&col=Default&f=48"
     },
     {
       "key": "1lxe0FRjCu5FG2SVbX5m1vDMfVAXzS0i_bnwxxPNuCX8",
-      "name": "Northeast Megalopolis commuters in 2017",
+      "name": "北東メガロポリスの通勤者（2017年）",
       "query": "v=41.122203%2C-75.833434%2C5.38%2C0%2C0&a=0&as=1&b=1&bo=75&c=1&ca=1&d=1&fe=1&lt=1&lfm=ALL&col=interpolateViridis&f=50"
     },
     {
       "key": "1B75NgT4vzOW86HZdIgKRv4lxE_GXDHalJW-0vGfFqQY",
       "query": "v=46.816064,1.831957,5.55,0,0&a=0&as=1&b=1&bo=75&c=1&ca=1&cz=5&d=1&fe=1&lt=1&lfm=ALL&col=Magma&f=39",
-      "name": "Commuters in France 2016"
+      "name": "フランスの通勤者（2016年）"
     },
     {
       "key": "1ndHiKo8z2B99ZQpToSfoIhI0RCbUsPZhqwNT0-U-TMk",
-      "name": "Global Airplane Routes 2014",
+      "name": "世界の航空路線（2014年）",
       "query": "v=14.163209,1.373237,1.65,0,0&a=0&b=1&bo=100&c=1&d=1&lt=1&lfm=ALL&col=Mint&f=60"
     },
     {
       "key": "1T4WemnQqdWjQHRSSEFkIoDclv8bAzXqnNMaAerWOWK8",
-      "name": "Tokyo metropolitan area census 2015",
+      "name": "東京圏国勢調査（2015年）",
       "query": "v=35.675604,139.743599,10.16,0,0&a=0&b=1&bo=75&c=1&d=1&lt=1&lfm=ALL&col=YlGnBu&f=50"
     },
     {
       "key": "19mCVbGW943x-xx7zompIrw2bPnyXAq-T8HsupbW4NHQ",
       "query": "v=47.905261,12.092776,3.12,0,0&a=0&as=1&b=1&bo=75&c=0&ca=0&cz=2&d=1&fe=1&lt=1&lfm=ALL&t=20200301T000000,20200804T000000&col=Sunset&f=50",
-      "name": "Daily flights in Europe 2020"
+      "name": "ヨーロッパの1日あたりの飛行（2020年）"
     },
     {
       "key": "1_ujwdP2U4GnMzAEOI1cB-myk083SloVVREYU8_SQ7FU",
       "sheet": "6e029fb",
       "query": "v=47.187858,8.040960,9.43,0,0&a=0&as=1&b=1&bo=45&c=1&ca=1&cz=8&d=1&fe=1&lt=1&lfm=ALL&col=SunsetDark&f=45",
-      "name": "Swiss Passenger Transport Model 2017"
+      "name": "スイス旅客輸送モデル（2017年）"
     },
     {
       "key": "1e3Euejg1bPCe5mdSPFVahi6Fy_LqXFyPTKJT-BcpMP8",
-      "name": "Cyclable trips in Waterloo Region",
+      "name": "ウォータールー地域の自転車移動",
       "query": "v=43.444961,-80.478809,11.17&a=0&d=1&c=1&col=Default&f=45"
     },
     {
       "key": "1zA3XV4fYshsdkwmWtfixNt5pVBtco4NPAjcUe-FtAoc",
-      "name": "Migration in Austria 2018"
+      "name": "オーストリアの移住（2018年）"
     },
     {
       "key": "1-3ZH3b-E3zc4Rvc9NgH4tlFRKZeq6HiLObHMJQ_TQSQ",
-      "name": "Commuting in Italy 2011"
+      "name": "イタリアの通勤（2011年）"
     },
     {
       "key": "1gDIhNsPYFOyrqSQlp1FDNXSCw-j3JAwL497QRfOYCGE",
-      "name": "Morning commuters in Seoul",
+      "name": "ソウルの朝の通勤者",
       "query": "v=37.544353,126.987414,11.37,0,0&a=0&b=1&bo=75&c=1&d=1&lt=1&lfm=ALL&col=Default&f=50"
     },
     {
       "key": "1gDrYiVk4jNhmqkBhFwKOYhBTHfOU_GNsjDUHV5vpuVE",
-      "name": "Commuters in Palermo, Italy",
+      "name": "イタリア・パレルモの通勤者",
       "query": "v=38.075220,13.339093,10.03,0,0&a=1&b=1&bo=50&c=1&d=1&lt=1&lfm=ALL&col=YlOrRd&f=17"
     },
     {
       "key": "1okIEQrprIg4v0tszr95mgCfulwoXCHYrVT-Sompi9DU",
-      "name": "Capital Bikeshare Washington 2018",
+      "name": "ワシントンCapital Bikeshare（2018年）",
       "query": "v=38.904350%2C-77.037376%2C12.5%2C0%2C0&a=0&as=1&b=1&bo=75&c=1&ca=1&d=1&fe=1&lt=1&lfm=ALL&f=50"
     },
     {
       "key": "1eZsRuRnUvJ8zU5VARuO5f5joQODvC-Fc8923GQRBrVI",
-      "name": "Mobility in Catalonia during COVID-19",
+      "name": "COVID-19期のカタルーニャの移動",
       "query": "v=41.430779%2C2.073365%2C9.90%2C0%2C0&a=0&as=1&b=1&bo=75&c=1&ca=1&d=1&fe=1&lt=1&lfm=ALL&t=20201101T000000%2C20201201T000000&col=Default&f=50"
     },
     {
       "key": "1iGK8eMyLZPVSGV-VqFO_n9jWUgl1mF6PSnOUYtsj0Q4",
       "query": "v=37.521452,-122.139346,8.81,0,0&a=0&as=1&b=1&bo=75&c=1&ca=1&d=1&fe=1&lt=1&lfm=ALL&col=Default&f=50",
-      "name": "Alameda County flows"
+      "name": "アラメダ郡のフロー"
     },
     {
       "key": "1LoeL7i9GHl67Y4SPyp5fiyex6lRqxOuib_mfmg978q4",
-      "name": "Hourly NYC Uber trips 2019-12-02",
+      "name": "NYCのUber時間別利用（2019-12-02）",
       "query": "v=40.731554,-73.969132,11.96,0,0&a=0&b=1&bo=75&c=1&d=1&lt=1&lfm=ALL&t=20191202T150000,20191202T170000&col=Default&f=50"
     },
     {
       "key": "1Aum0anWxPx6bHyfcFXWCCTE8u0xtfenIls_kPAJEDIA",
-      "name": "17 million New York Citi Bike trips 2018",
+      "name": "ニューヨークCiti Bike1700万回（2018年）",
       "query": "v=40.733700,-73.985072,12.47&a=0&d=1&c=1&f=45"
     },
     {
       "key": "1hNZzuEleugaHs8aLuHPHuTwnQFhFTFURpmOX6NdufcA",
-      "name": "Provincia di Lecce 2019",
+      "name": "レッチェ県（2019年）",
       "query": "v=40.135390%2C18.192176%2C9.17%2C0%2C0&a=0&as=1&b=1&bo=75&c=1&ca=1&d=1&fe=1&lt=1&lfm=ALL&col=Default&f=50"
     },
     {
       "key": "1hSZXtEOHsS8p9k2gfLgsL9vADBBFzIMse4yRhgT4Atw",
-      "name": "Rotterdam shared bicycles and scooters (2021)",
+      "name": "ロッテルダムのシェア自転車・スクーター（2021年）",
       "query": "v=51.918861%2C4.493428%2C11.33%2C0%2C0&a=0&as=1&b=1&bo=75&c=1&ca=1&d=1&fe=1&lt=1&lfm=ALL&col=Default&f=50"
     },
     {
       "key": "1ywFcYdbvtdN4gFhoTs2A8Bn7HE4530k05P4NNjqedHg",
-      "name": "Migration in Africa 2005-2010",
+      "name": "アフリカの移動（2005-2010年）",
       "query": "v=-18.544456,24.788442,4.19,0,0&a=0&as=1&b=1&bo=75&c=0&ca=1&cz=4&d=1&fe=1&lt=0&lfm=ALL&col=Magma&f=0"
     },
     {
       "key": "1xHK2xcxyXPP8FV5NHCjcByx9kTenbNY75yY00PHqqAc",
-      "name": "Edinburgh's bike sharing 2020",
+      "name": "エディンバラの自転車シェア（2020年）",
       "query": "v=55.943846,-3.206758,11.94,0,0&a=0&b=1&bo=75&c=1&d=1&lt=1&lfm=ALL&t=20200101T000000,20200102T000000&col=Sunset&f=50"
     },
     {
       "key": "1IRBIOBywJ9nNqBOf6VX0KXOmkMAc8c1dEr5qiu84TN8",
-      "name": "US migration 2012-2016",
+      "name": "米国の移住（2012-2016年）",
       "query": "v=35.129811,-98.580030,3.99&a=0&d=1&c=1&f=45"
     },
     {
       "key": "1Oe3zM219uSfJ3sjdRT90SAK2kU3xIvzdcCW6cwTsAuc",
-      "name": "Commuters in the Netherlands 2016",
+      "name": "オランダの通勤者（2016年）",
       "query": "v=52.098668,4.658308,8.60&a=0&d=1&c=1&lt=1&col=Default&f=45"
     },
     {
       "key": "1FFgn71GnyjP8E4jHB9vVsRYsxEIkg3k0g3G-z_eUwwk",
-      "name": "Croatian Inter-Settlement Migration 2018",
+      "name": "クロアチアの居住地間移住（2018年）",
       "query": "v=44.533407%2C16.478756%2C6.21%2C0%2C0&a=0&as=1&b=1&bo=75&c=1&ca=1&d=1&fe=1&lt=1&lfm=ALL&col=Sunset&f=50"
     },
     {
       "key": "1SCmQHSfvgYhPz5VFzg5LBtqY3OSfHzTutKkpneWVL4Q",
       "query": "v=30.263617,-97.753185,12.79,0,0&a=0&as=1&b=1&bo=75&c=1&ca=1&d=1&fe=1&lt=1&lfm=ALL&t=20200101T000000,20210101T000000&col=Default&f=50",
-      "name": "Austin MetroBike by day 2020"
+      "name": "オースティンMetroBike（2020年）"
     },
     {
       "key": "1icUMT7Q3V0DOPHBahXJlz7Mz_BYOgLv9InZUHX_5xIE",
-      "name": "Bird migration model",
+      "name": "鳥の渡りモデル",
       "query": "v=49.272478,5.910396,5.91&a=1&d=1&c=0&lt=0&col=Sunset&f=24"
     },
     {
       "key": "1UZHIQfgecHGogrfqAHc3OPP2sBLpCJQ36euleEoaDZQ",
       "query": "v=-28.689512%2C133.781976%2C3.79%2C0%2C0&a=0&as=1&b=1&bo=75&c=1&ca=1&d=1&fe=1&lt=1&lfm=ALL&t=20070101T000000%2C20210101T000000&col=SunsetDark&f=50",
-      "name": "Population movement in Australia, 2007-2020"
+      "name": "オーストラリアの人口移動（2007-2020年）"
     },
     {
       "key": "1MQK6xs-lS82crlfubyAzSXRQDiWTUrIgNuvkXhUKjUs",
-      "name": "5 million relocations in Australia"
+      "name": "オーストラリアでの500万件の移転"
     },
     {
       "key": "1ySZqe2onnkehmFIyXc4o3UqbyZq4RCk9AYcaAC-kWzA",
       "query": "v=-36.842204,174.744059,9.96,0,0&a=0&b=1&bo=75&c=1&d=1&lt=1&lfm=ALL&col=Default&f=50",
-      "name": "New Zealand commuters 2018"
+      "name": "ニュージーランドの通勤者（2018年）"
     },
     {
       "key": "1snSJx8zPZQStNEmN0qN10VRpf3acjRRJHLxH1yUCPws",
-      "name": "Taipei metro travels by hour 2019",
+      "name": "台北メトロの時間別利用（2019年）",
       "query": "v=25.033034,121.499924,11.14,0,0&a=0&b=1&bo=75&c=1&d=1&lt=1&lfm=ALL&t=20190101T080000,20190101T090000&col=Default&f=50"
     },
     {
       "key": "11leYaPeZ2uw3tlPUKlzto8fET_QLxa3PYitdZJEK2YA",
-      "name": "Commuters in Metro Vancouver 2016",
+      "name": "メトロ・バンクーバーの通勤者（2016年）",
       "query": "v=49.210835,-122.943528,9.71&a=0&b=1&c=1&d=1&lt=1&col=Default&f=45"
     },
     {
       "key": "1PVvaeeASIQV7dflQmvFRY9ztXi1Bwul8V2-v1UyRP_w",
       "query": "v=46.944276,7.428740,12.93&a=0&b=1&c=1&d=1&lt=1&col=TealGrn&f=45",
-      "name": "Bicycle hires in Bern, Switzerland"
+      "name": "スイス・ベルンの自転車レンタル"
     },
     {
       "key": "16XcIEARdxvX61Y-nMPNFNTriq-EgbWTA57WIOBGx1wM",
-      "name": "Gold Coast Light Rail, Australia"
+      "name": "オーストラリア・ゴールドコーストLRT"
     },
     {
       "key": "1efgAnJcTOVrETiAgVLOZ14Yd5wm2U3wMiSYCgo7F_Yo",
       "query": "v=51.503510,-0.127498,12.04,0,0&a=0&b=1&bo=75&c=1&d=1&lt=1&lfm=ALL&col=SunsetDark&f=63",
-      "name": "10M London bicycle hires 2019"
+      "name": "ロンドン自転車レンタル1000万回（2019年）"
     },
     {
       "key": "1Z6dVVFFrdooHIs8xnJ_O7eM5bhS5KscCi7G_k0jUNDI",
-      "name": "London bicycle hires 2017"
+      "name": "ロンドン自転車レンタル（2017年）"
     },
     {
       "key": "1XrvJF4AGdmY2JYu_F8BD7c_hktyY7eoLEBkRIBIc4Ls",
-      "name": "Migration in Greenland 1993-2019",
+      "name": "グリーンランドの移動（1993-2019年）",
       "query": "v=66.008791,-49.639574,4.90,49,48&a=0&as=1&b=1&bo=34&c=1&ca=1&d=1&fe=1&lt=1&lfm=ALL&t=20190101T000000,20200101T000000&col=BluYl&f=52"
     },
     {
       "key": "1Wz6ohj-PTWIQ7X9nu5dpdliqp9azSLWVPOCQoOpLvKQ",
-      "name": "Commuters in Canada 2016",
+      "name": "カナダの通勤者（2016年）",
       "query": "v=48.379110,-94.389853,3.79&a=0&b=1&c=1&d=1&lt=1&col=Default&f=28"
     },
     {
       "key": "1juFa0ce9rMZNzG1UTNvL9ND6wS7fBS2RtwGrt_qR6pg",
-      "name": "Monthly global flights 2010",
+      "name": "世界の月別航空便（2010年）",
       "query": "v=33.633058,-40.428589,2.41,0,0&a=0&as=1&b=1&bo=75&c=1&ca=1&d=1&fe=1&lt=1&lfm=ALL&t=20100101T000000,20100201T000000&col=Magma&f=50"
     },
     {
       "key": "1jhDwRoMv12lEzdNyldmGTNbWJ11YgIb-TbuC9qJ6SQs",
-      "name": "King County sewer system",
+      "name": "キング郡の下水システム",
       "query": "v=47.569243,-122.273770,11.01&a=0&d=1&c=1&col=SunsetDark&f=45"
     },
     {
       "key": "1nrVGJ5-MzXp0Tdt2rthTSc1AkRTAxEaUg91GiIq-KPA",
-      "name": "Commuting in Kurzeme region, Latvia (2017)",
+      "name": "ラトビア・クルゼメ地域の通勤（2017年）",
       "query": "v=56.846781%2C22.017780%2C7.55%2C0%2C0&a=0&as=1&b=1&bo=75&c=1&ca=1&d=1&fe=1&lt=1&lfm=ALL&col=Default&f=50"
     },
     {
       "key": "15_pAF6byVzfM4XWjVMryfirY6Lyo_rhJa7M7LADaveQ",
-      "name": "Travel in the Greater Toronto Area",
+      "name": "グレーター・トロント地域の移動",
       "query": "v=43.647088,-79.432299,8.91&a=0&b=1&c=1&d=1&lt=1&f=45"
     },
     {
       "key": "1xl5VCFJvx1wjtBTRhH-QzULIojiTORauFRqREnQkJN4",
-      "name": "Bus travels in São Paulo, Brazil"
+      "name": "ブラジル・サンパウロのバス移動"
     },
     {
       "key": "1p6XNvTGSKj3oONHiS9KZekIB82YrtC3kp7BT5OS4qoI",
-      "name": "Internal migration in Slovakia 2010-2014",
+      "name": "スロバキア国内移住（2010-2014年）",
       "query": "v=48.720253%2C19.555396%2C6.77%2C0%2C0&a=0&as=1&b=1&bo=75&c=1&ca=1&d=1&fe=1&lt=1&lfm=ALL&t=20100101T000000%2C20150101T000000&col=Default&f=50"
     },
     {
       "key": "1qPnZV0wYv9SKh1HInREh_KwuRRgV496nnoKEu6BT8ug",
-      "name": "Commuters in Switzerland 2014"
+      "name": "スイスの通勤者（2014年）"
     },
     {
       "key": "1Tlj2e6Kha7SZgIxwcghIqJiCyWXv7VMtgHw20VSjyIE",
-      "name": "Pedestrians in Mexico City",
+      "name": "メキシコシティの歩行者",
       "query": "v=19.391692,-99.151511,10.91&a=0&d=1&c=1&lt=1&f=45"
     },
     {
       "key": "1CHNxBDHzADEekx78Q-EMfiacPKNapaU8cRLueMFfSr4",
-      "name": "Harris County commuters by wage 2017",
+      "name": "ハリス郡の賃金別通勤者（2017年）",
       "query": "v=29.813146,-95.418800,9.71,0,0&a=0&b=1&bo=75&c=1&d=1&lt=1&lfm=ALL&col=OrRd&f=50"
     },
     {
       "key": "1xnVwgxAUGPn14nnyCl1XjkznsKV303poObzODeqGf_c",
-      "name": "Santiago, Chile, March 9, 2020",
+      "name": "チリ・サンティアゴ（2020年3月9日）",
       "query": "v=-33.452532,-70.662550,9.93,0,0&a=0&b=1&bo=75&c=0&d=1&lt=1&lfm=ALL&col=BuPu&f=50"
     },
     {
       "key": "1ch3r9xLNFqFzbcsSqSpsCVL8MMMhcZX__cmbvvdc3Wk",
-      "name": "Santiago, Chile"
+      "name": "チリ・サンティアゴ"
     },
     {
       "key": "17N42GG2gyce3M11PPrC3RWoypU20HF-Xow8eElrHkXk",
-      "name": "Gran Valparaíso, Chile"
+      "name": "チリ・グラン・バルパライソ"
     },
     {
       "key": "1pCeQO_EGgO7HBkK0qPzDEndaxG-6YGcjBn3XWkG0B_0",
-      "name": "Coquimbo/La Serena, Chile"
+      "name": "チリ・コキンボ／ラ・セレナ"
     },
     {
       "key": "1secN-pGAaXnxwjfjqJJfGFZFnk16DV2IgTEffOAMWVg",
-      "name": "Antofagasta, Chile"
+      "name": "チリ・アントファガスタ"
     },
     {
       "key": "17O4eAJg3bFVA_FOFTJGoIOW7zZ5B0ZJwMFaP35gyUg0",
-      "name": "Rancagua/Machalí, Chile"
+      "name": "チリ・ランカグア／マチャリ"
     },
     {
       "key": "1j15DwdAvGg21z47dJ1wBWCB_oxKwKqzuuwQbMD4cGNk",
       "query": "v=63.520513,10.767703,7.36,0,0&a=0&b=1&bo=75&c=0&d=1&lt=1&lfm=ALL&col=BluYl&f=33",
-      "name": "Commuters in Trøndelag, Norway"
+      "name": "ノルウェー・トロンデラーグの通勤者"
     },
     {
       "key": "12OpNobFWMLRFuBhCxP-hJIGMA3iqDwA3P6fwkDqfQms",
       "query": "v=45.450771,9.183115,11.46&a=0&d=1&c=1&lt=1&col=Burg&f=64",
-      "name": "Commuters in Milan 2020"
+      "name": "ミラノの通勤者（2020年）"
     },
     {
       "key": "1uHumN4NeDIm1YFXnYowJWOXc_oGFsKIfSCXhdrGYaHg",
       "query": "v=19.406278,-99.164120,12.72,0,0&a=0&as=1&b=1&bo=75&c=1&ca=1&d=1&fe=1&lt=1&lfm=ALL&col=PuRd&f=50",
-      "name": "Mexico city bike sharing 2020"
+      "name": "メキシコシティの自転車シェア（2020年）"
     },
     {
       "key": "1EEGFfR5uMU4cfXyiVB00rYhOsXgR7CyfTrQk5lj9HLs",
       "query": "v=19.426211,-99.188794,13.31,0,0&a=0&as=1&b=1&bo=75&c=0&ca=1&d=1&fe=1&lt=1&lfm=ALL&col=YlGn&f=50",
-      "name": "Mexico city kick scooter sharing 2019-2020"
+      "name": "メキシコシティのキックスクーターシェア（2019-2020年）"
     },
     {
       "key": "1hABEXaTDudWS-rHtKLw658RWVMnovoHpy1mWRo49WJk",
       "query": "v=7.918901%2C80.505192%2C7.39%2C0%2C0&a=0&as=1&b=1&bo=40&c=0&ca=1&d=1&fe=1&lt=1&lfm=ALL&col=Viridis&f=49",
-      "name": "Migration in Sri Lanka 2012"
+      "name": "スリランカの移住（2012年）"
     },
     {
       "key": "1C2Br5bAU0R6j-2C2-_ElpIu45bLFm-F3hkbe7-JOFwg",
-      "name": "Cattle livestock movements in NZ"
+      "name": "ニュージーランドの牛の移動"
     },
     {
       "key": "13krjWPeGx5yIauhDrQMVa0xaTER4Td5txQAw-Plh3w4",
-      "name": "Relocations in Barcelona 2017",
+      "name": "バルセロナの移転（2017年）",
       "query": "v=41.388489,2.162359,12.48&a=0&d=1&c=1&lt=1&f=45"
     },
     {
       "key": "1jD6GhILTNwHZKm_7OgJrIbBrFaJ5JyXiS8byEXOveWA",
-      "name": "Magdalena, Colombia 2018"
+      "name": "コロンビア・マグダレナ（2018年）"
     },
     {
       "key": "1FkOWeGgVKL1rfoJZK4fq6X0nDiWOKdv3Lcuqx3sgDu4",
-      "name": "Morning commuters in Santiago 2012"
+      "name": "サンティアゴの朝の通勤者（2012年）"
     },
     {
       "key": "1hXJsxW_ZWD1sqth2iVhHGRtWH5P_IWtjTjkZRIrzTQk",
-      "name": "Mumbai Commuting 2018",
+      "name": "ムンバイの通勤（2018年）",
       "query": "v=19.164517%2C72.991162%2C10.06%2C0%2C0&a=0&as=1&b=1&bo=75&c=1&ca=1&d=1&fe=1&lt=1&lfm=ALL&col=Blues&f=50"
     },
     {
       "key": "1wMmN1dXjvTR7S4dv9gtFeuwJRtdMLFRm0GAORVZynCg",
-      "name": "Metro travels in Santiago, Chile"
+      "name": "チリ・サンティアゴのメトロ利用"
     },
     {
       "key": "1UjFe82hMq8L_TlrEnkNWOuIiOONxb2rcfS7BiBLFd-U",
-      "name": "Chicago bike sharing 2021",
+      "name": "シカゴの自転車シェア（2021年）",
       "query": "v=41.884052%2C-87.647792%2C12.22%2C0%2C0&a=0&as=1&b=1&bo=75&c=1&ca=1&d=1&fe=1&lt=1&lfm=ALL&col=Teal&f=50"
     },
     {
       "key": "1IYzuqRDlBbXKWFKiJ-XQ7dRsHOHxQcdSHdfC23vKfac",
-      "name": "Philadelphia bike sharing 2019 Q4",
+      "name": "フィラデルフィアの自転車シェア（2019年第4四半期）",
       "query": "v=39.951751,-75.167605,12.51,0,0&a=0&b=1&bo=75&c=1&d=1&lt=1&lfm=ALL&col=DarkMint&f=50"
     },
     {
       "key": "1GkxyU-482BmtSqJXscwHaVrTbgHlPqY-uPxuyWbcf8o",
-      "name": "Public transport in Kazakhstan 2020",
+      "name": "カザフスタンの公共交通（2020年）",
       "query": "v=51.134908%2C71.446084%2C11.39%2C0%2C0&a=0&as=1&b=1&bo=75&c=1&ca=1&d=1&fe=1&lt=1&lfm=ALL&t=20200120T000000%2C20200121T000000&col=Blues&f=50"
     },
     {
       "key": "1k-GPUBh334sXxKg3-bY-MAiH0wgiM7A6rE1px9T0hKA",
-      "name": "World refugees 2017",
+      "name": "世界の難民（2017年）",
       "query": "v=27.125172,31.789959,3.19&a=0&b=1&c=1&d=1&lt=1&col=SunsetDark&f=30"
     },
     {
       "key": "1Hy6kV4O_qqcjNvNxmDkc-WA__8wcbAjUlBX5a0zcGWY",
-      "name": "Plant migration to Guadeloupe",
+      "name": "グアドループへの植物移入",
       "query": "v=6.611493,-52.118689,2.94&a=1&d=1&c=1&col=BluYl&f=0"
     },
     {
       "key": "18eQBxQDTGVOxMicvsd5bKplhiXe5ohM_G2D7L6mVspI",
       "query": "v=43.545350,1.442510,9.14&a=0&d=1&c=1&lt=1&f=46",
-      "name": "Commuters in the south of France"
+      "name": "フランス南部の通勤者"
     },
     {
       "key": "1NekUlySL8_LShjOvVFenW5ed6QJNu31_6ebVCj6eGoE",
-      "name": "Commuters in New York 2015"
+      "name": "ニューヨークの通勤者（2015年）"
     },
     {
       "key": "1H33wOmFS6OZBkRSTguqqHAHCv5MA3Ww2padz2z_9i2o",
       "query": "v=53.075776,8.710400,8.43&a=1&b=1&c=1&d=1&lt=1&col=YlOrRd&f=0",
-      "name": "Commuters in Bremen"
+      "name": "ブレーメンの通勤者"
     },
     {
       "key": "1AqAwC0O4f61xqSZsDrzwQYRHJg-BOyTlINWJlfHgQjQ",
       "query": "v=49.869985%2C15.621952%2C7.16%2C0%2C0&a=0&as=1&b=1&bo=75&c=1&ca=1&d=1&fe=1&lt=1&lfm=ALL&col=Default&f=43",
-      "name": "Migration in Czech Republic from 2005 to 2017"
+      "name": "チェコの移住（2005〜2017年）"
     },
     {
       "key": "1ND0cLhnGYNdlloWArsVw_LSlj1eOablas_COwLsNjC0",
-      "name": "Global coffee exports in 2017",
+      "name": "世界のコーヒー輸出（2017年）",
       "query": "v=7.318013,10.942728,1.08,0,0&a=0&b=1&bo=76&c=1&d=0&lt=1&lfm=ALL&col=Oranges&f=36"
     },
     {
       "key": "1DepInNULQvNmy1x5jeQr5A1KsxWB8_4QuBnV57TtsXI",
-      "name": "Commuters in Cook County, Chicago"
+      "name": "シカゴ・クック郡の通勤者"
     },
     {
       "key": "1rhsLubo_ZCjoBhP7PbX16nm-WUPvtHRguEFXhLJu1Jk",
-      "name": "Relocations in the Netherlands 2017"
+      "name": "オランダの移転（2017年）"
     },
     {
       "key": "1Gq9xzv8utBOcZB36dJiX3Ksl9msuw20fad7J6IKnUKY",
-      "name": "Chicago TNC trips"
+      "name": "シカゴの配車サービス利用"
     },
     {
       "key": "1ZXg_3QunGO4_jhaWstYvHAQicYCukPYDCxslW3c0uNQ",
-      "name": "Commuters in le Pays de Lorient, France",
+      "name": "フランス・ロリアン地方の通勤者",
       "query": "v=47.756469,-3.380318,10.49&a=0&d=1&c=1&col=PuRd&f=45"
     },
     {
       "key": "1RP9YEXuYJbllZGjUuLdaNmkSyvXYPQ5tBjXX4CGBMjI",
-      "name": "International migrants 2000, 2005, 2010, 2015",
+      "name": "国際移民（2000/2005/2010/2015年）",
       "query": "v=8.729650,11.252848,1.22,0,0&a=0&b=1&bo=75&c=1&d=1&lt=1&lfm=ALL&col=Emrld&f=50"
     },
     {
       "key": "14wDs-nZ6GQV4bNtxCcW2s_98402f9gK9BOqC5uLst68",
-      "name": "Top football transfers 2000–2018",
+      "name": "サッカー移籍上位（2000〜2018年）",
       "query": "v=47.110989,2.251806,4.17,0,0&a=0&as=1&b=1&bo=75&c=1&ca=1&d=1&fe=1&lt=1&lfm=ALL&t=20000101T000000,20190101T000000&col=Magma&f=50"
     },
     {
       "key": "1upuL1_mCgXjjIp2OI_PekFS5r_Vtyr46Fayt1aWnnjc",
-      "name": "International migrant stock 2019"
+      "name": "国際移民ストック（2019年）"
     },
     {
       "key": "18RxRi1aKytbiBL7O_lXbTx4n69JWqiGJquPGJmv7wos",
-      "name": "Commuters in New Zealand 2013",
+      "name": "ニュージーランドの通勤者（2013年）",
       "query": "v=-42.051751,173.211728,4.67&a=0&b=1&c=1&d=1&lt=1&f=45"
     },
     {
       "key": "1ax4J4iLZb5nFWooseKEmLXJyOb-gGpo5qYtHbr_3TOU",
-      "name": "Seattle Lyft rides 2018 Q2",
+      "name": "シアトルLyft利用（2018年第2四半期）",
       "query": "v=47.614581,-122.332389,12.36&a=0&d=1&c=0&f=45"
     },
     {
       "key": "18C8jcLuEV9Ijx5J_-8WGqjq6HuOs7iWNbVU6XbxX9J0",
-      "name": "Sarah Grace Carr tour in Wales in 1819",
+      "name": "サラ・グレース・カーのウェールズ旅（1819年）",
       "query": "v=52.460941,-3.779526,7.37&a=0&d=1&c=0&col=SunsetDark&f=45"
     },
     {
       "key": "17460pvyBS5b5z9UaR-eFzlLu6X9Ug281GxTAIaxpyPA",
-      "name": "King John's travels through England in 1216"
+      "name": "1216年のジョン王のイングランド行幸"
     },
     {
       "key": "11uuylq4zQ3V6CgJyrZt6Xk0DztlcUw0d7JOKY_EEVWw",
-      "name": "Missionaries of Wales"
+      "name": "ウェールズの宣教師"
     },
     {
       "key": "1BHy69x6MbVZZSqmF53MnOe2X_B_AGGdNUqsXmmmFt0Q",
-      "name": "Commuters to Salzburg 2011",
+      "name": "ザルツブルクへの通勤者（2011年）",
       "query": "v=47.780392,13.055787,10.31&a=0&b=1&c=1&d=1&lt=1&f=45"
     },
     {
       "key": "1gZCPCLpQjkGFJWL0sTv1dLBuR1zBkeNqVOvDGA46uLM",
-      "name": "Hungary hourly mobility 2019",
+      "name": "ハンガリーの時間別移動（2019年）",
       "query": "v=47.162326,19.108898,7.67,0,0&a=0&as=1&b=1&bo=75&c=1&ca=0&cz=7&d=1&fe=1&lt=1&lfm=ALL&t=20190528T010000,20190529T000000&col=Default&f=50"
     },
     {
       "key": "1V8g6xe7hWLEUUIJDnSwq4XcHUuXZnlFCchRMLxkXJ3k",
-      "name": "Migration in Indonesia 2015",
+      "name": "インドネシアの移住（2015年）",
       "query": "v=-4.073862,112.431066,4.77,0,0&a=0&as=1&b=1&bo=75&c=0&ca=1&d=1&fe=1&lt=1&lfm=ALL&col=Blues&f=50"
     },
     {
       "key": "18QSxtLs-AemUZx4fAL2L3oRAvK8sadCrecEUfOXucWM",
-      "name": "Migration in Europe",
+      "name": "ヨーロッパの移住",
       "query": "v=49.277032,5.572255,4.64,0,0&a=0&as=1&b=1&bo=75&c=1&ca=1&cz=2&d=1&fe=1&lt=1&lfm=ALL&col=YlGnBu&f=50"
     },
     {
       "key": "1kkCHVHmo6ZC-qxt3nL4Zd6F3LfuZldO3ZKtmUw_a-Z8",
-      "name": "Annual global flights 2010",
+      "name": "世界の年間フライト（2010年）",
       "query": "v=29.809658,56.251406,2.32,0,0&a=0&as=1&b=1&bo=75&c=1&ca=1&d=1&fe=1&lt=1&lfm=ALL&col=Magma&f=50"
     },
     {
       "key": "1ElqxUc0fhgMzBGQ5XVsff0ScESdXK1OiGOizda-l-DE",
-      "name": "Refugees resettlement 2019"
+      "name": "難民再定住（2019年）"
     },
     {
       "key": "11BnSxpgE3MrogkSi1jAXd0fk2xtTH4l45DHaPviKE9U",
-      "name": "Internal migration in Georgia",
+      "name": "ジョージア国内の移住",
       "query": "v=41.775920,43.291332,7.17&a=0&b=1&c=0&d=1&lt=1&col=Default&f=45"
     },
     {
       "key": "10ujwLgqN_GlazlqMhyFxyM4D9Vd2V8LHR396BC-uerc",
-      "name": "Ukraine voting location changes"
+      "name": "ウクライナ投票所の変更"
     },
     {
       "key": "1mgZFk4wM3BZHXJK0j25NS5lXjFkskJ8JYztDub5iwQA",
-      "name": "Migration in Austria 2019",
+      "name": "オーストリアの移住（2019年）",
       "query": "v=47.362589,13.205399,6.75&a=0&d=1&c=1&lt=1&col=Sunset&f=46"
     },
     {
       "key": "1Pqzc63fDdRVTrgi7u8MtGY1eAHFQjYTGXw_yHomb3DA",
-      "name": "Plastic waste of EU27 countries",
+      "name": "EU27か国のプラスチック廃棄物",
       "query": "v=32.751857,56.275567,2.04,0,0&a=0&as=1&b=1&bo=75&c=1&ca=1&d=1&fe=1&lt=1&lfm=ALL&t=20000101T000000,20210101T000000&col=Sunset&f=50"
     },
     {
       "key": "1aRGa9oo7eJwG0n2-HbA22IiTqcUbImylb2chhe1dLaU",
-      "name": "Internal Migration in Uruguay 2011",
+      "name": "ウルグアイ国内移住（2011年）",
       "query": "v=-33.568021,-55.836306,6.34,0,0&a=0&as=1&b=1&bo=75&c=1&ca=1&d=1&fe=1&lt=1&lfm=ALL&col=Default&f=50"
     },
     {
       "key": "1VdL8bOI42S_M597lO-uVZG2Hx4ujwudiSrgPFps6oeo",
-      "name": "Foursquare check-ins in Barcelona",
+      "name": "バルセロナのFoursquareチェックイン",
       "query": "v=41.358382,2.123110,11.57,-50,0&a=0&b=1&bo=77&c=1&d=1&lt=1&lfm=ALL&col=SunsetDark&f=65"
     },
     {
       "key": "1hsU13EUFyX8m9xp7GYGGEMyC1bZ8_9sU6b4e2KHwVSc",
       "query": "v=38.063991,12.856926,4,0,0&a=0&b=1&bo=75&c=1&d=1&lt=1&lfm=ALL&col=SunsetDark&f=50",
-      "name": "France historical mobility 1790-1890"
+      "name": "フランスの歴史的移動（1790〜1890年）"
     },
     {
       "key": "11SBtjPvJF9DwhaA8ZBGCYdMwajd4VPTGTp4AXmw1j5k",
-      "name": "Migration from Greece",
+      "name": "ギリシャからの移住",
       "query": "v=38.917953,21.921850,6.24&a=1&d=0&c=1&col=Teal&f=0"
     },
     {
       "key": "1qpqQr9TN5MVgJFQ6xmI9ut7VHy9_E9Lja84abB9Hq2Y",
-      "name": "Poultry trade and risk of HPAI endemicity in Vietnam + background data map"
+      "name": "ベトナムの家禽取引とHPAI常在化リスク＋背景データ"
     },
     {
       "key": "19kZJ8t_jO1WmlnncuXqYHdf5nQAYLqPLdfXtWW-k8eE",
-      "name": "Trans-Atlantic Slave Trade 1516-1865",
+      "name": "大西洋奴隷貿易（1516〜1865年）",
       "query": "v=-4.876383,-19.778484,2.09,0,0&a=0&b=1&bo=75&c=0&d=1&lt=1&lfm=ALL&t=15160101T000000,18630101T000000&col=PuRd&f=50"
     },
     {
       "key": "1_SFSYKWgyo7BF1SK1TTyqFewr2nUDPfBOGnJTNh3s3k",
-      "name": "Commuters in Switzerland, Swisstopo basemap",
+      "name": "スイスの通勤者（Swisstopo地図）",
       "query": "v=46.653848,8.176866,7.06,0,0&a=0&as=1&b=1&bo=30&c=1&ca=1&d=1&fe=1&lt=1&lfm=ALL&col=DarkMint&f=42"
     }
   ]
