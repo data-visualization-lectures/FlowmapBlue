@@ -22,6 +22,7 @@ import {
   DEFAULT_MAP_STYLE_DARK,
   DEFAULT_MAP_STYLE_LIGHT,
   DEFAULT_MAPBOX_ACCESS_TOKEN,
+  IGNORE_SHEET_MAPBOX_STYLE,
   parseBoolConfigProp,
 } from './config';
 import {nest} from 'd3-collection';
@@ -345,7 +346,7 @@ export const getFlowMapColors = createSelector(
 
 export const getMapboxMapStyle = createSelector(getConfig, getDarkMode, (config, darkMode) => {
   const configMapStyle = config[ConfigPropName.MAPBOX_MAP_STYLE];
-  if (configMapStyle) {
+  if (configMapStyle && !IGNORE_SHEET_MAPBOX_STYLE) {
     return configMapStyle;
   }
   const accessToken = config[ConfigPropName.MAPBOX_ACCESS_TOKEN];
