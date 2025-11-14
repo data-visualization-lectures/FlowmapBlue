@@ -12,8 +12,7 @@ const GalleryPage = () => {
       <h1>Gallery</h1>
       <section>
         <p>
-          Here are some of the flow maps people have been publishing. Want yours to be featured?{' '}
-          <a href="mailto:ilya@boyandin.me?subject=FlowmapBlue">Let us know</a>.
+          Here are some of the flow maps people have been publishing.
         </p>
         <Gallery />
       </section>
