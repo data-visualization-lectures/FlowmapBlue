@@ -1,4 +1,4 @@
-import React, {FC, useEffect} from 'react';
+import React, {FC} from 'react';
 import useFetch from 'react-fetch-hook';
 import {PromiseState} from 'react-refetch';
 import FlowMap, {
@@ -12,7 +12,6 @@ import {csvParse} from 'd3-dsv';
 import ErrorFallback from '../components/ErrorFallback';
 import {useMemo} from 'react';
 import {useRouter} from 'next/router';
-import sendEvent from 'components/sendEvent';
 
 type Props = {
   locationsUrl: string;
@@ -51,12 +50,6 @@ const FromUrlFlowMap: FC<Props> = (props) => {
         })),
       ),
   });
-
-  useEffect(() => {
-    if (fetchFlows.data && fetchLocations.data) {
-      sendEvent('from-url', 'Untitled');
-    }
-  }, [fetchFlows.data, fetchLocations.data]);
 
   if (fetchLocations.error) {
     return <ErrorFallback error={fetchLocations.error} />;
