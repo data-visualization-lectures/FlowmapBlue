@@ -1,6 +1,6 @@
 export default function sendEvent(key: string, title: string) {
   try {
-    fetch('https://flowmap-blue-stats.netlify.app/api/log', {
+    void fetch('https://flowmap-blue-stats.netlify.app/api/log', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -11,6 +11,8 @@ export default function sendEvent(key: string, title: string) {
         href: document.location.href,
         referrer: document.referrer,
       }),
+    }).catch((err) => {
+      console.error('Failed sending log event', err);
     });
   } catch (err) {
     console.error('Failed sending log event', err);
