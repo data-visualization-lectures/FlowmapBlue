@@ -143,7 +143,7 @@ const Gallery = (props: Props) => {
         <Link legacyBehavior href="/gallery">
           <a>
             <MoreBox>
-              <Icon icon={IconNames.ARROW_RIGHT} /> &nbsp; More examples
+              <Icon icon={IconNames.ARROW_RIGHT} /> &nbsp; ギャラリーを見る
             </MoreBox>
           </a>
         </Link>
