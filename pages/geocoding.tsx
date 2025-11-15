@@ -196,14 +196,14 @@ const Geocoding = () => {
   }, [input, country, locationType, outputDelimiter]);
   return (
     <Layout>
-      <h1>Geocoding</h1>
+      <h1>ジオコーディング</h1>
       <Head>
-        <title>Geocoding – FlowmapBlue</title>
+        <title>ジオコーディング – FlowmapBlue</title>
       </Head>
       <section>
-        <p>Find geographic coordinates of locations by their names.</p>
-        <p>{`We limit the number of user requests to max ${MAX_GEOCODING_REQUESTS_PER_DAY} per day. 
-        Please use sparingly, we have a limit on the total number of requests we can make.
+        <p>地名から地理座標を検索します。</p>
+        <p>{`ユーザーリクエストは1日あたり最大${MAX_GEOCODING_REQUESTS_PER_DAY}件に制限されています。
+        総リクエスト数に上限があるため、節度を持ってご利用ください。
         `}</p>
       </section>
       <Container>
@@ -291,7 +291,7 @@ const Geocoding = () => {
       </Container>
       <br />
       <section>
-        <p>You can copy-paste these data directly from and to your Google spreadsheet.</p>
+        <p>これらのデータはGoogleスプレッドシートとの間で直接コピー&ペーストできます。</p>
       </section>
     </Layout>
   );
@@ -311,8 +311,8 @@ function showTooManyRequestsToast() {
       timeout: 0,
       message: (
         <ToastContent>
-          {`Sorry, the geocoding requests are not free for us, hence, we
-            have to limit them to ${MAX_GEOCODING_REQUESTS_PER_DAY} max per day.`}
+          {`申し訳ございませんが、ジオコーディングリクエストは有料サービスを利用しているため、
+            1日あたり最大${MAX_GEOCODING_REQUESTS_PER_DAY}件に制限させていただいております。`}
         </ToastContent>
       ),
     },

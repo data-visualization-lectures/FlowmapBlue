@@ -59,9 +59,9 @@ const HowToPage: React.FC<Props> = (props) => {
         <p>以下の手順に従ってください。</p>
         <ListOfSteps>
           <li>
-            <Away href="https://docs.google.com/spreadsheets/d/1aEgwtGUGc0TdnsO0jIm50hshCZ-m4DHms3P0Qq9IYdA">
+            <Away href="https://docs.google.com/spreadsheets/d/1ROFkkHpOljmqc6nl4diagj8q2kOta71UnwlQO-07tvk">
               テンプレートのスプレッドシート
-            </Away>
+            </Away>を開きます。
           </li>
           <li>メニューの「ファイル」→「コピーを作成…」で複製します。</li>
           <li>

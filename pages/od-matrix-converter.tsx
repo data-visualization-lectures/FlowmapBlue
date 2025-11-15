@@ -57,24 +57,22 @@ const ODMatrixConverter = () => {
   }, [input]);
   return (
     <Layout>
-      <h1>OD-matrix converter</h1>
+      <h1>OD行列コンバーター</h1>
       <Head>
-        <title>OD-matrix converter – FlowmapBlue</title>
+        <title>OD行列コンバーター – FlowmapBlue</title>
       </Head>
       <section>
         <p>
-          Often OD-data comes in the form of an OD-matrix: the rows are the origins, the columns are
-          the destinations and the trip counts are in the cells.
+          OD（起終点）データは、クロス集計（マトリックス形式）の表形式で提供されることがよくあります。行が起点、列が終点を表し、移動数がセルに記載されています。
         </p>
         <p>
-          This utility can help you converting an OD-matrix dataset into the form suitable for
-          FlowmapBlue by unpivoting the destinations.
+          このツールは、クロス集計の表形式を、終点列をアンピボット（縦持ち化）することで、FlowmapBlueで利用可能な整然データ（リスト形式）の表形式に変換するのに役立ちます。
         </p>
       </section>
       <ConverterContainer>
-        <H5>Input OD-matrix TSV (tab-separated values)</H5>
+        <H5>インプット・データ（マトリックス形式）TSV</H5>
         <span />
-        <H5>Output TSV</H5>
+        <H5>アウトプット・データ（リスト形式）TSV</H5>
         <TextArea
           growVertically={false}
           large={true}
@@ -88,13 +86,13 @@ const ODMatrixConverter = () => {
           rightIcon={IconNames.ARROW_RIGHT}
           onClick={handleConvert}
         >
-          Convert
+          変換
         </Button>
         <TextArea growVertically={false} large={true} intent={Intent.PRIMARY} value={output} />
       </ConverterContainer>
       <br />
       <section>
-        <p>You can copy-paste these data directly from and to your Google spreadsheet.</p>
+        <p>これらのデータはGoogleスプレッドシートとの間で直接コピー&ペーストできます。</p>
       </section>
     </Layout>
   );
