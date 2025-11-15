@@ -41,15 +41,6 @@ const MapContainer: React.FC<Props> = ({embed, children}) => (
             <LogoOuter>
               <Logo embed={embed} fontSize={20} />
             </LogoOuter>
-            <Away href="https://supportukrainenow.org/">
-              <Image
-                alt={'Support Ukraine'}
-                title={'Support Ukraine'}
-                width={30 * 0.8}
-                height={20 * 0.8}
-                src={'/images/StandWithUkraine.svg'}
-              />
-            </Away>
           </div>
         </Absolute>
       </>
