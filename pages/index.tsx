@@ -126,15 +126,6 @@ const Index = () => (
       <LogoTitle>
         <div style={{display: 'flex', alignItems: 'center', gap: 10}}>
           <Logo fontSize={35} collapseWidth={300} />
-          <Away href="https://supportukrainenow.org/">
-            <Image
-              alt={'Support Ukraine'}
-              title={'Support Ukraine'}
-              width={30 * 0.8}
-              height={20 * 0.8}
-              src={'/images/StandWithUkraine.svg'}
-            />
-          </Away>
         </div>
       </LogoTitle>
     </TitleRow>
