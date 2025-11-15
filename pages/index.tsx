@@ -120,7 +120,7 @@ const TitleRow = styled.div`
 const Index = () => (
   <Layout>
     <Head>
-      <title>FlowmapBlue – Flow map visualization tool</title>
+      <title>FlowmapBlue – フローマップ可視化ツール</title>
     </Head>
     <TitleRow>
       <LogoTitle>
@@ -146,17 +146,17 @@ const Index = () => (
                 type="text"
                 name="email"
                 id="tlemail"
-                placeholder="Enter your@email.address here"
+                placeholder="your@email.address を入力"
               />
               <input type="hidden" defaultValue={1} name="embed" />
-              <Button type="submit" text="Subscribe" />
+              <Button type="submit" text="購読する" />
             </Row>
             <NewsletterDescription>
-              Subscribe to the newsletter to learn about{' '}
+              ニュースレターに登録して{' '}
               <Away href="https://tinyletter.com/flowmap-blue/archive">
-                updates and new features
+                最新情報や新機能
               </Away>
-              .
+              を受け取りましょう。
             </NewsletterDescription>
           </Column>
         </form>
@@ -179,47 +179,46 @@ const Index = () => (
     </DemoVideo>
 
     <section>
-      <p>Create geographic flow maps representing numbers of movements between locations.</p>
-      <p>Visualize your own origin-destination data published in Google Sheets.</p>
-      <p>Explore the data interactively.</p>
+      <p>地点間の移動量を表す地理的フローマップを作成できます。</p>
+      <p>Google Sheets に公開した独自の OD データを可視化しましょう。</p>
+      <p>インタラクティブにデータを探索できます。</p>
     </section>
 
     <section>
-      <h2>What is it for?</h2>
+      <h2>何に使える？</h2>
       <div>
-        FlowmapBlue is used to visualize various real-world phenomena in which pairs of locations
-        are involved:
+        FlowmapBlue は、地点のペアが関わるさまざまな現象を可視化するために使われています。
         <ListOfUses>
-          <ListOfUsesItem>Urban mobility</ListOfUsesItem>
-          <ListOfUsesItem>Commuters</ListOfUsesItem>
-          <ListOfUsesItem>Pedestrian movement</ListOfUsesItem>
-          <ListOfUsesItem>Bus travels </ListOfUsesItem>
-          <ListOfUsesItem>Metro rides</ListOfUsesItem>
-          <ListOfUsesItem>Train rides</ListOfUsesItem>
-          <ListOfUsesItem>Air travels</ListOfUsesItem>
-          <ListOfUsesItem>Marine traffic</ListOfUsesItem>
-          <ListOfUsesItem>Bicycle sharing</ListOfUsesItem>
-          <ListOfUsesItem>Scooter sharing</ListOfUsesItem>
-          <ListOfUsesItem>Car ride sharing </ListOfUsesItem>
-          <ListOfUsesItem>Taxi rides</ListOfUsesItem>
-          <ListOfUsesItem>Internal migration</ListOfUsesItem>
-          <ListOfUsesItem>International migration</ListOfUsesItem>
-          <ListOfUsesItem>Refugees</ListOfUsesItem>
-          <ListOfUsesItem>Human trafficking </ListOfUsesItem>
-          <ListOfUsesItem>Drug flows </ListOfUsesItem>
-          <ListOfUsesItem>Freight transportation </ListOfUsesItem>
-          <ListOfUsesItem>Material flows</ListOfUsesItem>
-          <ListOfUsesItem>Trade </ListOfUsesItem>
-          <ListOfUsesItem>Bird migrations </ListOfUsesItem>
-          <ListOfUsesItem>Livestock movements </ListOfUsesItem>
-          <ListOfUsesItem>Plant migration</ListOfUsesItem>
-          <ListOfUsesItem>Urban infrastructure</ListOfUsesItem>
-          <ListOfUsesItem>Sewage flows</ListOfUsesItem>
-          <ListOfUsesItem>Waste management</ListOfUsesItem>
-          <ListOfUsesItem>Supply chain </ListOfUsesItem>
-          <ListOfUsesItem>Epidemiology</ListOfUsesItem>
-          <ListOfUsesItem>Historical journeys </ListOfUsesItem>
-          <ListOfUsesItem>Scientific collaborations</ListOfUsesItem>
+          <ListOfUsesItem>都市モビリティ</ListOfUsesItem>
+          <ListOfUsesItem>通勤・通学</ListOfUsesItem>
+          <ListOfUsesItem>歩行者の動き</ListOfUsesItem>
+          <ListOfUsesItem>バス移動</ListOfUsesItem>
+          <ListOfUsesItem>地下鉄利用</ListOfUsesItem>
+          <ListOfUsesItem>鉄道利用</ListOfUsesItem>
+          <ListOfUsesItem>航空移動</ListOfUsesItem>
+          <ListOfUsesItem>海上交通</ListOfUsesItem>
+          <ListOfUsesItem>自転車シェア</ListOfUsesItem>
+          <ListOfUsesItem>スクーターシェア</ListOfUsesItem>
+          <ListOfUsesItem>ライドシェア</ListOfUsesItem>
+          <ListOfUsesItem>タクシー</ListOfUsesItem>
+          <ListOfUsesItem>国内移住</ListOfUsesItem>
+          <ListOfUsesItem>国際移住</ListOfUsesItem>
+          <ListOfUsesItem>難民の移動</ListOfUsesItem>
+          <ListOfUsesItem>人身取引</ListOfUsesItem>
+          <ListOfUsesItem>麻薬の流通</ListOfUsesItem>
+          <ListOfUsesItem>貨物輸送</ListOfUsesItem>
+          <ListOfUsesItem>物質の流れ</ListOfUsesItem>
+          <ListOfUsesItem>貿易</ListOfUsesItem>
+          <ListOfUsesItem>鳥の渡り</ListOfUsesItem>
+          <ListOfUsesItem>家畜の移動</ListOfUsesItem>
+          <ListOfUsesItem>植物の移入</ListOfUsesItem>
+          <ListOfUsesItem>都市インフラ</ListOfUsesItem>
+          <ListOfUsesItem>下水の流れ</ListOfUsesItem>
+          <ListOfUsesItem>廃棄物管理</ListOfUsesItem>
+          <ListOfUsesItem>サプライチェーン</ListOfUsesItem>
+          <ListOfUsesItem>疫学</ListOfUsesItem>
+          <ListOfUsesItem>歴史的な旅路</ListOfUsesItem>
+          <ListOfUsesItem>科学研究の協働</ListOfUsesItem>
         </ListOfUses>
       </div>
       <GalleryPreviewOuter>
@@ -231,7 +230,7 @@ const Index = () => (
     </section>
 
     <section>
-      <h2>Who is using it?</h2>
+      <h2>誰が使っている？</h2>
       <UsedByContainer>
         {USED_BY_LOGOS.map(({url, name, img, width = 120}) => (
           <Away key={name} href={url}>
@@ -250,14 +249,13 @@ const Index = () => (
     </section>
 
     <section>
-      {/*How to make a flow map*/}
-      <h2 id="how-to">How to make a flow map?</h2>
+      <h2 id="how-to">フローマップの作り方</h2>
       <p>
-        Follow the steps{' '}
+        手順は{' '}
         <Link legacyBehavior href="/how-to-make-a-flow-map">
-          described on this page
+          このページ
         </Link>
-        .
+        でご確認ください。
       </p>
     </section>
 
@@ -269,7 +267,7 @@ const Index = () => (
     {/*</section>*/}
 
     <section>
-      <h2 id="news">Latest news</h2>
+      <h2 id="news">最新情報</h2>
       <News maxCount={5} />
     </section>
 

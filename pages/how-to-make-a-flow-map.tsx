@@ -43,84 +43,76 @@ const HowToPage: React.FC<Props> = (props) => {
   return (
     <Layout>
       <Head>
-        <title>How to make a flow map – FlowmapBlue</title>
+        <title>フローマップの作り方 – FlowmapBlue</title>
       </Head>
       <section>
-        <h1>How to make a flow map</h1>
+        <h1>フローマップの作り方</h1>
         <ReadMore isOpen>
-          Consider using <Away href={'http://flowmap.city'}>Flowmap City</Away>, the new product we
-          are building. It supports data uploads to a secure data storage, offers more analytics
-          capabilities, improved scalability, an SQL query editor, and more coming.
+          私たちが開発している新しい製品 <Away href={'http://flowmap.city'}>Flowmap City</Away>{' '}
+          の利用もご検討ください。安全なデータストレージへのアップロード、より豊富な分析機能、
+          スケーラビリティの向上、SQL クエリエディタなどを備え、今後も機能を追加予定です。
         </ReadMore>
         <p>
-          To visualize and publish a data set as a flow map you need to have a Google account.{' '}
-          <Away href="https://accounts.google.com/signup">Sign up here</Away> if you don&apos;t.
+          データセットをフローマップとして可視化・公開するには Google アカウントが必要です。まだお持ちでない場合は{' '}
+          <Away href="https://accounts.google.com/signup">こちらから登録</Away>してください。
         </p>
-        <p>Follow these steps:</p>
+        <p>以下の手順に従ってください。</p>
         <ListOfSteps>
           <li>
-            Open{' '}
             <Away href="https://docs.google.com/spreadsheets/d/1aEgwtGUGc0TdnsO0jIm50hshCZ-m4DHms3P0Qq9IYdA">
-              the template spreadsheet
-            </Away>{' '}
+              テンプレートのスプレッドシート
+            </Away>
           </li>
-          <li>Make a copy of it (find “File” / “Make a copy…” in the menu)</li>
+          <li>メニューの「ファイル」→「コピーを作成…」で複製します。</li>
           <li>
-            Add data to the new spreadsheet.{' '}
+            新しいスプレッドシートにデータを追加します。{' '}
             <ReadMore>
               <p>
-                The spreadsheet has three sheets in it. They are named “<b>properties</b>”, “
-                <b>locations</b>” and “<b>flows</b>”. The <b>properties</b> sheet has the title and
-                the description for your data set and a few other configuration parameters. The{' '}
-                <b>locations</b> sheet has the columns <b>id</b>, <b>lat</b>, <b>lon</b> and the
-                optional <b>name</b>. The <b>flows</b> sheet has <b>origin</b>, <b>dest</b>,{' '}
-                <b>count</b> and optional <b>time</b>. The values in the <b>origin</b> and{' '}
-                <b>dest</b> columns must be the respective locations&apos; <b>id</b>s.
+                このスプレッドシートには「<b>properties</b>」「<b>locations</b>」「<b>flows</b>
+                」の3つのシートがあります。<b>properties</b> にはデータセットのタイトルや説明、その他の設定項目を記述します。<b>locations</b>{' '}
+                には <b>id</b>、<b>lat</b>、<b>lon</b> と任意の <b>name</b> 列があります。<b>
+                  flows
+                </b>{' '}
+                には <b>origin</b>、<b>dest</b>、<b>count</b> と任意の <b>time</b> 列があります。
+                <b>origin</b> と <b>dest</b> の値は、それぞれ対応する地点の <b>id</b> と一致する必要があります。
               </p>
               <p>
-                Use the{' '}
+                移動量が OD マトリクスで記述されている場合は{' '}
                 <Link legacyBehavior href="/od-matrix-converter">
                   OD-matrix converter
                 </Link>{' '}
-                if your movement counts are represented as an OD-matrix.
+                をご利用ください。
               </p>
-              Our{' '}
+              また{' '}
               <Link legacyBehavior href="/geocoding">
                 Geocoding tool
               </Link>{' '}
-              can help you finding the geographic coordinates for locations if you only have their
-              names in your dataset.
+              は、データセットに地点名しかない場合でも緯度経度を取得するのに役立ちます。
             </ReadMore>
           </li>
           {/*<li>Publish your spreadsheet by going to "File" / "Publish to the web…"</li>*/}
           <li>
-            Click the “Share” button, then change the selection from “Restricted” to “Anyone with
-            the link” in the drop-down under “Get link”.{' '}
+            「共有」ボタンをクリックし、「リンクを取得」のドロップダウンで「制限付き」を「リンクを知っている全員」に変更します。{' '}
             <ReadMore>
-              This step is required so that FlowmapBlue can access the data in your spreadsheet. The
-              spreadsheet and the flow map will be effectively private as long as you do not send
-              their URLs to anyone and do not publish them online. We will treat your data as
-              private by default and will not disclose the URLs without getting an explicit consent
-              from you (unless you disclose them yourself first by linking from a publicly
-              accessible website).
+              この設定を行うことで FlowmapBlue がスプレッドシートのデータにアクセスできるようになります。URL を他人に送ったりオンラインで公開しない限り、スプレッドシートやフローマップは事実上非公開のままです。私たちはデフォルトでデータを非公開として扱い、ユーザーの明示的な同意を得ずに URL を共有することはありません（ただし、ご自身で公開サイトからリンクした場合は除きます）。
             </ReadMore>
           </li>
           <SpreadsheetKeyExtractor />
         </ListOfSteps>
-        If you are not comfortable uploading your data to Google Sheets, consider using our{' '}
+        Google Sheets にデータをアップロードするのが難しい場合は、{' '}
         <Link legacyBehavior href="/in-browser">
           In-browser flow map
         </Link>{' '}
-        or load CSV files from any specific URLs as{' '}
+        の利用や、任意の URL から CSV を読み込む方法を{' '}
         <Away href="https://github.com/FlowmapBlue/flowmap.blue/issues/18#issuecomment-610063627">
-          described here
+          こちら
         </Away>
-        .
+        でご確認ください。
       </section>
 
       <section>
-        <h2 id="tools">Tools</h2>
-        <p>These tools might help you preparing and visualizing your data:</p>
+        <h2 id="tools">ツール</h2>
+        <p>データの準備や可視化に役立つツールを紹介します。</p>
 
         <ListOfTools>
           <li>
@@ -130,8 +122,7 @@ const HowToPage: React.FC<Props> = (props) => {
               </Link>
             </h3>
             <p>
-              Can help you finding the geographic coordinates for locations if you only have their
-              names in your dataset.
+              データセットに地点名しかない場合でも、緯度経度を取得する際に役立ちます。
             </p>
           </li>
           <li>
@@ -140,7 +131,7 @@ const HowToPage: React.FC<Props> = (props) => {
                 OD-matrix converter
               </Link>
             </h3>
-            <p>Use it when your movement counts are represented as an OD-matrix.</p>
+            <p>移動量が OD マトリクスで記録されている場合にご利用ください。</p>
           </li>
           <li>
             <h3>
@@ -149,20 +140,20 @@ const HowToPage: React.FC<Props> = (props) => {
               </Link>
             </h3>
             <p>
-              With this tool you can visualize OD-data directly in your browser without having to
-              upload the data to Google Sheets.
+              データを Google Sheets にアップロードせずに、ブラウザ上で直接 OD データを可視化できます。
             </p>
           </li>
         </ListOfTools>
       </section>
       <section>
-        <h2 id="need-help">Need help?</h2>
+        <h2 id="need-help">お困りですか？</h2>
         <p>
-          <Away href="https://spectrum.chat/flowmap-blue/general">Ask a question in the forum</Away>
-          ,{` `}
-          <Away href="https://github.com/FlowmapBlue/flowmap.blue/issues">submit an issue</Away>
-          {` or `}
-          <a href="mailto:ilya@boyandin.me?subject=FlowmapBlue">write me an email</a>.
+          <Away href="https://spectrum.chat/flowmap-blue/general">フォーラムで質問する</Away>
+          、{` `}
+          <Away href="https://github.com/FlowmapBlue/flowmap.blue/issues">Issue を投稿する</Away>
+          {` または `}
+          <a href="mailto:ilya@boyandin.me?subject=FlowmapBlue">メールで連絡する</a>
+          ことができます。
         </p>
       </section>
     </Layout>

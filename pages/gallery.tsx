@@ -11,9 +11,7 @@ const GalleryPage = () => {
       </Head>
       <h1>Gallery</h1>
       <section>
-        <p>
-          Here are some of the flow maps people have been publishing.
-        </p>
+        <p>これまでに公開されたフローマップの一部をご紹介します。</p>
         <Gallery />
       </section>
     </Layout>
