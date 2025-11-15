@@ -90,14 +90,11 @@ const InBrowserFlowMap = () => {
     <FlowMapContainer {...data} />
   ) : (
     <Layout>
-      <h1>In-browser flow map</h1>
+      <h1>ブラウザ内フローマップ</h1>
       <section>
         <p>
-          With this tool you can visualize OD-data as a flow map directly in your browser without
-          the need to upload it to Google Sheets. The data will remain in your browser and{' '}
-          <i>will not be uploaded anywhere</i>. Note that the visualization will be lost as soon as
-          you close the browser window with it. There will be no URL to come back to or to share
-          with other people.
+          このツールを使用すると、Googleスプレッドシートにアップロードすることなく、ブラウザ内で直接ODデータをフローマップとして可視化できます。データはブラウザ内に保持され、
+          <i>どこにもアップロードされません</i>。ただし、ブラウザウィンドウを閉じると可視化は失われます。戻ってきたり、他の人と共有したりするためのURLは生成されません。
         </p>
       </section>
       <Container>
@@ -120,7 +117,7 @@ const InBrowserFlowMap = () => {
       </Container>
       <ButtonArea>
         <Button icon={IconNames.CHART} large={true} onClick={handleVisualize}>
-          Visualize
+          可視化
         </Button>
       </ButtonArea>
     </Layout>

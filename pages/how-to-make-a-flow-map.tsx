@@ -47,11 +47,6 @@ const HowToPage: React.FC<Props> = (props) => {
       </Head>
       <section>
         <h1>フローマップの作り方</h1>
-        <ReadMore isOpen>
-          私たちが開発している新しい製品 <Away href={'http://flowmap.city'}>Flowmap City</Away>{' '}
-          の利用もご検討ください。安全なデータストレージへのアップロード、より豊富な分析機能、
-          スケーラビリティの向上、SQL クエリエディタなどを備え、今後も機能を追加予定です。
-        </ReadMore>
         <p>
           データセットをフローマップとして可視化・公開するには Google アカウントが必要です。まだお持ちでない場合は{' '}
           <Away href="https://accounts.google.com/signup">こちらから登録</Away>してください。
@@ -77,7 +72,7 @@ const HowToPage: React.FC<Props> = (props) => {
                 <b>origin</b> と <b>dest</b> の値は、それぞれ対応する地点の <b>id</b> と一致する必要があります。
               </p>
               <p>
-                移動量が OD マトリクスで記述されている場合は{' '}
+                移動量がクロス集計で記述されている場合は{' '}
                 <Link legacyBehavior href="/od-matrix-converter">
                   OD-matrix converter
                 </Link>{' '}
