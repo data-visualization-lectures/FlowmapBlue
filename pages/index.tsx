@@ -137,30 +137,6 @@ const Index = () => (
           </Away>
         </div>
       </LogoTitle>
-      <NewsletterOuter>
-        <form action="https://tinyletter.com/flowmap-blue" method="post" target="_blank">
-          <Column spacing={10}>
-            <Row spacing={10}>
-              <input
-                className={Classes.INPUT}
-                type="text"
-                name="email"
-                id="tlemail"
-                placeholder="your@email.address を入力"
-              />
-              <input type="hidden" defaultValue={1} name="embed" />
-              <Button type="submit" text="購読する" />
-            </Row>
-            <NewsletterDescription>
-              ニュースレターに登録して{' '}
-              <Away href="https://tinyletter.com/flowmap-blue/archive">
-                最新情報や新機能
-              </Away>
-              を受け取りましょう。
-            </NewsletterDescription>
-          </Column>
-        </form>
-      </NewsletterOuter>
     </TitleRow>
 
     <DemoVideo>

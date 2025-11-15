@@ -135,25 +135,6 @@ const Nav = () => {
       <NavItem to="/news">ニュース</NavItem>
       <NavItem to="/privacy">プライバシー・ポリシー</NavItem>
       <NavItem to="/credits">クレジット</NavItem>
-      <div className="right-links">
-        {/*<Away href="https://github.com/sponsors/ilyabo">*/}
-        {/*  <LinkItem>*/}
-        {/*    <span>Sponsor</span>*/}
-        {/*    <Icon icon={IconNames.HEART} />*/}
-        {/*  </LinkItem>*/}
-        {/*</Away>*/}
-        <Away href="https://github.com/FlowmapBlue/flowmap.blue/discussions">
-          <LinkItem>
-            <span>Ask a question</span>
-          </LinkItem>
-        </Away>
-        <Away href="https://github.com/FlowmapBlue/flowmap.blue">
-          <LinkItem>
-            <span>GitHub</span>
-            <Image width={20} height={20} alt="FlowmapBlue on GitHub" src={GitHubLogo} />
-          </LinkItem>
-        </Away>
-      </div>
     </>
   );
 
