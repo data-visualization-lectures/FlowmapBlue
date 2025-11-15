@@ -7,9 +7,9 @@ const GalleryPage = () => {
   return (
     <Layout>
       <Head>
-        <title>Gallery – FlowmapBlue</title>
+        <title>ギャラリー – FlowmapBlue</title>
       </Head>
-      <h1>Gallery</h1>
+      <h1>ギャラリー</h1>
       <section>
         <p>これまでに公開されたフローマップの一部をご紹介します。</p>
         <Gallery />

@@ -130,11 +130,11 @@ const Nav = () => {
   const navLinks = (
     <>
       <NavItem to="/">Home</NavItem>
-      <NavItem to="/gallery">Gallery</NavItem>
-      <NavItem to="/news">News</NavItem>
-      <NavItem to="/how-to-make-a-flow-map">How to make a flow map</NavItem>
-      <NavItem to="/privacy">Privacy</NavItem>
-      <NavItem to="/credits">Credits</NavItem>
+      <NavItem to="/gallery">ギャラリー</NavItem>
+      <NavItem to="/how-to-make-a-flow-map">フローマップの作り方</NavItem>
+      <NavItem to="/news">ニュース</NavItem>
+      <NavItem to="/privacy">プライバシー・ポリシー</NavItem>
+      <NavItem to="/credits">クレジット</NavItem>
       <div className="right-links">
         {/*<Away href="https://github.com/sponsors/ilyabo">*/}
         {/*  <LinkItem>*/}

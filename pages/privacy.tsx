@@ -10,9 +10,9 @@ const PrivacyPage: React.FC<Props> = (props) => {
   return (
     <Layout>
       <section>
-        <h1>Privacy policy</h1>
+        <h1>プライバシー・ポリシー</h1>
         <Head>
-          <title>Privacy – FlowmapBlue</title>
+          <title>プライバシー・ポリシー – FlowmapBlue</title>
         </Head>
         <p>
           FlowmapBlue does not store any of the data the users upload to Google Sheets. The data

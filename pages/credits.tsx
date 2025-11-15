@@ -11,9 +11,9 @@ const CreditsPage: React.FC<Props> = (props) => {
   return (
     <Layout>
       <section>
-        <h1>Credits</h1>
+        <h1>クレジット</h1>
         <Head>
-          <title>Credits – FlowmapBlue</title>
+          <title>クレジット – FlowmapBlue</title>
         </Head>
         <Credits />
       </section>
