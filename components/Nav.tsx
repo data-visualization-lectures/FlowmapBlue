@@ -129,7 +129,7 @@ const Nav = () => {
 
   const navLinks = (
     <>
-      <NavItem to="/">Home</NavItem>
+      <NavItem to="/">ホーム</NavItem>
       <NavItem to="/gallery">ギャラリー</NavItem>
       <NavItem to="/how-to-make-a-flow-map">フローマップの作り方</NavItem>
       <NavItem to="/news">ニュース</NavItem>
